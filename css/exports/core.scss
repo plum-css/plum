@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "configs/default/colors",
+  "configs/default/icons",
+  "configs/default/images",
+  "configs/default/layouts",
+  "configs/default/typography",
+  "core/reset",
+  "core/base",
+  "helpers/functions",
+  "helpers/mixins",
+  "layouts/global",
+  "modules/content/base",
+  "modules/content/modifier",
+  "modules/content/layout",
+  "modules/content/theme",
+  "modules/content/state",
+  "modules/heading/base",
+  "modules/heading/modifier",
+  "modules/heading/layout",
+  "modules/heading/theme",
+  "modules/heading/state",
+  "vendors/syntax",
+  "vendors/markdown",
+  "vendors/mermaid",
+  "units/header",
+  "units/navigation",
+  "units/footer",
+  "pages/splash"
+;

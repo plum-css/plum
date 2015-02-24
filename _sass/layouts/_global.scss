@@ -1,0 +1,30 @@
+.l-global {
+  max-width: $layout-large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-global > * {
+  margin-bottom: $font-size-4 * 2;
+}
+
+.l-global-1 {
+  width: 100%;
+}
+
+.l-global-2 {
+  width: 100%;
+}
+
+.l-global-3 {
+  width: 100%;
+}
+
+.l-global-m-headless {
+  > *:first-child {
+    display: none;
+    + * {
+      margin-top: $font-size-4 * 2;
+    }
+  }
+}

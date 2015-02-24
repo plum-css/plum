@@ -1,0 +1,22 @@
+body {
+  font-family: $font-stack-1;
+  font-size: $font-size-4;
+  line-height: 1.5;
+  font-weight: 300;
+  color: $color-fg-1;
+  background-color: $color-bg-1;
+}
+
+a {
+  color: $color-fg-1;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($color-fg-1, 15%);
+  }
+
+  &:hover {
+    color: $color-fg-1;
+    text-decoration: underline;
+  }
+}

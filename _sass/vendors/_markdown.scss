@@ -1,0 +1,80 @@
+.markdown {
+
+  h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre,
+  ul, ol, dl, figure {
+    margin-bottom: $font-size-4;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @extend .heading;
+  }
+
+  h1 {
+    @extend .heading-t-xxlarge;
+  }
+
+  h2 {
+    @extend .heading-t-xlarge;
+  }
+
+  h3 {
+    @extend .heading-t-large;
+  }
+
+  h4 {
+    @extend .heading-t-medium;
+  }
+
+  h5 {
+    @extend .heading-t-small;
+  }
+
+  h6 {
+    @extend .heading-t-xsmall;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  a {
+    color: $color-hl-1;
+
+    &:visited {
+      color: darken($color-hl-1, 15%);
+    }
+
+    &:hover {
+      color: $color-fg-1;
+    }
+  }
+
+  figure > img {
+    display: block;
+  }
+
+  figcaption {
+    font-size: $font-size-6;
+  }
+
+  ul, ol {
+    margin-left: $font-size-4 * 2;
+  }
+
+  li {
+    > ul,
+    > ol {
+       margin-bottom: 0;
+    }
+  }
+
+  code {
+    font-size: $font-size-5;
+    border: 1px solid lighten(#828282, 40%);
+    border-radius: 3px;
+    background-color: #eef;
+  }
+
+}

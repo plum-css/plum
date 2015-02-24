@@ -1,0 +1,20 @@
+.footer-l {
+  padding-bottom: $font-size-4;
+  padding-left: $font-size-4;
+  padding-right: $font-size-4;
+  padding-top: $font-size-4;
+  width: 100%;
+}
+
+.footer-l-1 {
+  width: 100%;
+}
+
+.footer {
+  border-top: 1px solid lighten($color-bd-1, 80%);
+}
+
+.footer-text {
+  color: lighten($color-fg-1, 15%);
+  font-size: $font-size-4;
+}

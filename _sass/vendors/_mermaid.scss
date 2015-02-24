@@ -1,0 +1,6 @@
+.mermaid {
+  display: block;
+  @include media-query( $layout-small ) {
+    display: none;
+  }
+}

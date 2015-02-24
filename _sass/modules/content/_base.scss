@@ -1,0 +1,9 @@
+.content {}
+
+.content > * {
+  padding-left: $font-size-4;
+  padding-right: $font-size-4;
+}
+
+.content-header {}
+.content-body {}

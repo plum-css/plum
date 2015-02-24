@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="l-global l-global-m-headless">
+  <div class="l-global-1">
+    {% include header.html %}
+  </div>
+  <div class="l-global-2">
+    <section class="splash content">
+      <header class="content-header">
+        <h1 class="splash-heading heading heading-t-xxlarge heading-l-center">
+          <a class="splash-heading-link" href="docs/pages.html">P</a>
+          <a class="splash-heading-link" href="docs/layouts.html">L</a>
+          <a class="splash-heading-link" href="docs/units.html">U</a>
+          <a class="splash-heading-link" href="docs/modules.html">M</a>
+        </h1>
+        <p class="heading heading-t-medium heading-l-center">A highly opinionated, battle-tested design pattern for developing maintainable CSS in a multi-team environment.</p>
+      </header>
+      <div class="content-body">
+        <div class="splash-markdown markdown">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="l-global-3">
+    {% include footer.html %}
+  </div>
+</div>

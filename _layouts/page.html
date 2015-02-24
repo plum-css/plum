@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="l-global">
+  <div class="l-global-1">
+    {% include header.html %}
+  </div>
+  <div class="l-global-2">
+    <section class="content">
+      <header class="content-header">
+        <h1 class="heading heading-t-xxlarge">{{ page.title }}</h1>
+      </header>
+      <article class="content-body">
+        <div class="markdown">
+          {{ content }}
+        </div>
+      </article>
+    </section>
+  </div>
+  <div class="l-global-3">
+    {% include footer.html %}
+  </div>
+</div>

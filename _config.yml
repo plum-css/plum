@@ -1,0 +1,20 @@
+# Site settings
+title: Plum
+baseurl: "/plum" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+collections:
+  docs:
+    output: true
+
+# Plugins
+gems:
+  - jekyll-mermaid
+
+mermaid:
+  src: '/plum/js/mermaid.full.js'
+
+# Conversion
+markdown: redcarpet
+
+exclude: ['Rakefile']
