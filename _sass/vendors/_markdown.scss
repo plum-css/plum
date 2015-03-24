@@ -77,4 +77,36 @@
     background-color: #eef;
   }
 
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    word-break: normal;
+    margin-bottom: $font-size-4;
+  }
+
+  table th {
+    padding-top: $font-size-4 / 2;
+    padding-right: $font-size-4;
+    padding-bottom: $font-size-4 / 2;
+    padding-left: $font-size-4;
+    border: 1px solid lighten(#828282, 40%);
+    text-align: left;
+  }
+
+  table tr {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid lighten(#828282, 40%);
+  }
+
+  table td {
+    padding-top: $font-size-4 / 2;
+    padding-right: $font-size-4;
+    padding-bottom: $font-size-4 / 2;
+    padding-left: $font-size-4;
+    border: 1px solid lighten(#828282, 40%);
+  }
+
 }
