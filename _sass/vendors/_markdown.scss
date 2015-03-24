@@ -79,12 +79,13 @@
 
   table {
     border-collapse: collapse;
+    border-radius: 3px;
     border-spacing: 0;
     display: block;
+    margin-bottom: $font-size-4;
     overflow: auto;
     width: 100%;
     word-break: normal;
-    margin-bottom: $font-size-4;
   }
 
   table th {
