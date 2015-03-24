@@ -35,25 +35,22 @@ graph LR;
 
 ## How do I develop them?
 
-Your modules should consist of and be broken down into the following sections:
+Your modules classes should consist of and be broken down into the following sections:
 
-1. [Base](modules-base.html)
-2. [Modifier](modules-modifier.html)
-3. [State](modules-state.html)
-4. [Theme](modules-theme.html)
-5. [Layout](modules-layout.html)
+Type                              | Base class     | Child class         | Description
+----------------------------------|----------------|---------------------|-------------
+[base](modules-base.html)         | `.module`      | `.module-child`     | classes that define the default interface.
+[layout](modules-layout.html)     | `.module-l-*`  | `.module-child-l-*` | classes that alter the positioning and layout.
+[modifier](modules-modifier.html) | `.module-m-*`  | `.module-child-m-*` | classes that adapt to changes in functionality and placement.
+[state](modules-state.html)       | `.module-s-*`  | `.module-child-s-*` | classes that indicate a specific condition at a specific time.
+[theme](modules-theme.html)       | `.modile-t-*`  | `.module-child-t-*` | classes that alter the look and feel.
+
 
 ## How do I structure their files & folders?
 
 ```text
 modules
-├── module-one
-│   ├── _base.scss
-│   ├── _layout.scss
-│   ├── _modifier.scss
-│   ├── _state.scss
-│   └── _theme.scss
-└── module-two
+└── module
     ├── _base.scss
     ├── _layout.scss
     ├── _modifier.scss
