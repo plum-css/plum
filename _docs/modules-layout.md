@@ -30,4 +30,4 @@ Layout classes are applied by appending `.module-l-*` and/or `.module-child-l-*`
 
 ## Notes
 
-- Layout classes should only affect the position of child elements inside of a module, **never** the position of the module itself.
+- Layout classes should only affect the position of child elements, **never** the position of the module itself.
