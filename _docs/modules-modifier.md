@@ -22,22 +22,8 @@ graph TD;
 
 ## How do they work?
 
-A modules modifier classes can contain any properties that affect the placement of the contents of a module.
+Modifier classes should only contain properties that affect the placement of the inner content of a module.
 
 ## How do I use them?
 
-A modules modifier classes are applied by appending `.module-m-*` to the modules root class or by appending `.module-child-m-*` to one of its child classes.
-
-## Example
-
-```scss
-.heading-m-indent {
-  padding-left: 2em;
-}
-```
-
-## Generator
-
-You can automatically create and `@import` module files with the [Plum Generator](https://github.com/plum-css/generator-plum) by running the following command:
-
-- `yo plum:module <name>`
+Modifier classes are applied by appending `.module-m-*` and/or `.module-child-m-*` to a modules base classes.

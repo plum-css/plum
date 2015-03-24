@@ -33,17 +33,17 @@ graph LR;
     class MODULES active;
 {% endmermaid %}
 
-## How do I develop them?
+## How do they work?
 
-Your modules classes should consist of and be broken down into the following sections:
+A module should consist of and be broken down into the following classes:
 
 Type                              | Base class     | Child class         | Description
 ----------------------------------|----------------|---------------------|-------------
 [base](modules-base.html)         | `.module`      | `.module-child`     | classes that define the default interface.
-[layout](modules-layout.html)     | `.module-l-*`  | `.module-child-l-*` | classes that alter the positioning and layout.
-[modifier](modules-modifier.html) | `.module-m-*`  | `.module-child-m-*` | classes that adapt to changes in functionality and placement.
+[modifier](modules-modifier.html) | `.module-m-*`  | `.module-child-m-*` | classes that adapt changes in functionality and placement.
 [state](modules-state.html)       | `.module-s-*`  | `.module-child-s-*` | classes that indicate a specific condition at a specific time.
-[theme](modules-theme.html)       | `.modile-t-*`  | `.module-child-t-*` | classes that alter the look and feel.
+[theme](modules-theme.html)       | `.module-t-*`  | `.module-child-t-*` | classes that alter the look and feel.
+[layout](modules-layout.html)     | `.module-l-*`  | `.module-child-l-*` | classes that alter the positioning and layout.
 
 
 ## How do I structure their files & folders?

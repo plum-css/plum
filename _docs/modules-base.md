@@ -22,21 +22,8 @@ graph TD;
 
 ## How do they work?
 
-Module base classes can contain any properties that will be shared across most occurrences and variations of your module.
+Base classes should contain properties that will be shared across your module.
 
-## Example
+## Notes
 
-```scss
-.heading {
-  display: block;
-  font-weight: bold;
-}
-```
-
-**Note:** *To provide a consistent interface for all developers, base classes should always be declared even if they do not have any properties set on them.*
-
-## Generator
-
-You can automatically create and `@import` module files with the [Plum Generator](https://github.com/plum-css/generator-plum) by running the following command:
-
-- `yo plum:module <name>`
+- To provide a consistent interface, base classes should always be declared even if they don't have any properties set on them.

@@ -22,30 +22,12 @@ graph TD;
 
 ## How do they work?
 
-A modules layout classes can contain any properties that affect the positioning and structure of a module.
+Layout classes should only contain properties that affect the positioning and structure of a module.
 
 ## How do I use them?
 
-A modules layout classes are applied by appending: `.module-l-*`  to a modules root class.
+Layout classes are applied by appending `.module-l-*` and/or `.module-child-l-*` to a modules base classes.
 
-## Example
+## Notes
 
-```scss
-.heading-l-left {
-  text-align: left;
-}
-
-.heading-l-center {
-  text-align: center;
-}
-
-.heading-l-right {
-  text-align: right;
-}
-```
-
-## Generator
-
-You can automatically create and `@import` module files with the [Plum Generator](https://github.com/plum-css/generator-plum) by running the following command:
-
-- `yo plum:module <name>`
+- Layout classes should only affect the position of child elements inside of a module, **never** the position of the module itself.
