@@ -3,7 +3,7 @@ layout: page
 title: Modules->State
 ---
 
-A modules state classes are used to indicate a specific condition at a specific time, *e.g.*, *hidden*, *disabled*, *active*, *etc.*
+A modules state classes define a specific condition at a specific time, *e.g.*, *hidden*, *disabled*, *active*, *etc.*
 
 {% mermaid %}
 graph TD;

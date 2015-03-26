@@ -3,7 +3,7 @@ layout: page
 title: Modules->Modifier
 ---
 
-A modules modifier classes allow the modules to adapt to changes in functionality and placement relative to its surroundings.
+A modules modifier classes define how its child classes adapt relative to their placement.
 
 {% mermaid %}
 graph TD;
@@ -26,4 +26,4 @@ Modifier classes should only contain properties that affect the placement of the
 
 ## How do I use them?
 
-Modifier classes are applied by appending `.module-m-*` and/or `.module-child-m-*` to a modules base classes.
+wodifier classes are applied by appending `.module-m-*` and/or `.module-child-m-*` to a modules base classes.

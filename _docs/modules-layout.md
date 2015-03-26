@@ -3,7 +3,7 @@ layout: page
 title: Modules->Layout
 ---
 
-A modules layout classes define and alter the positioning of the module and its children.
+A modules layout classes define the positioning and layout of the module and its children.
 
 {% mermaid %}
 graph TD;

@@ -37,13 +37,13 @@ graph LR;
 
 A module should consist of and be broken down into the following classes:
 
-Type                              | Base class     | Child class         | Description
-----------------------------------|----------------|---------------------|-------------
-[base](modules-base.html)         | `.module`      | `.module-child`     | classes that define the default interface.
-[modifier](modules-modifier.html) | `.module-m-*`  | `.module-child-m-*` | classes that adapt changes in functionality and placement.
-[state](modules-state.html)       | `.module-s-*`  | `.module-child-s-*` | classes that indicate a specific condition at a specific time.
-[theme](modules-theme.html)       | `.module-t-*`  | `.module-child-t-*` | classes that alter the look and feel.
-[layout](modules-layout.html)     | `.module-l-*`  | `.module-child-l-*` | classes that alter the positioning and layout.
+Type                              | Description                                                  | Base class     | Child class
+----------------------------------|--------------------------------------------------------------|----------------|---------------------
+[base](modules-base.html)         | classes that define the default interface.                   | `.module`      | `.module-child`
+[modifier](modules-modifier.html) | classes that defined changes relative to placement.          | `.module-m-*`  | `.module-child-m-*`
+[state](modules-state.html)       | classes that define a specific condition at a specific time. | `.module-s-*`  | `.module-child-s-*`
+[theme](modules-theme.html)       | classes that define the look and feel.                       | `.module-t-*`  | `.module-child-t-*`
+[layout](modules-layout.html)     | classes that define the positioning and layout.              | `.module-l-*`  | `.module-child-l-*`
 
 
 ## How do I structure their files & folders?

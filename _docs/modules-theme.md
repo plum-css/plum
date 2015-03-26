@@ -3,7 +3,7 @@ layout: page
 title: Modules->Theme
 ---
 
-A modules theme classes define and alter the look and feel of a module.
+A modules theme classes define the look and feel of a module.
 
 {% mermaid %}
 graph TD;
