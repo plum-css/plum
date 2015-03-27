@@ -55,7 +55,7 @@ and by extending & subclassing any existing [modules](modules.html) classes:
 
 ```text
 units
-└── unit-one.scss
+└── unit/_unit.scss
 ```
 
 ## Example
