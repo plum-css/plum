@@ -35,23 +35,20 @@ graph LR;
 
 ## How do they work?
 
-- A pages root and child classes can directly affect **all** the properties of an element.
-- A pages layout classes should follow the same rules as [global layouts](layouts.html).
+Page classes can directly affect all the properties of an element.
 
 ## How do I use them?
 
-A units classes can be applied by appending the following classes to any element:
+Pages are built by creating classes under the pages namespace and by extending and subclassing [module](modules.html) and/or [unit](units.html) classes:
 
- - `.page-*`
- - `.page-child-*`
- - `.page-l-*`
-
-and by extending & subclassing any existing [modules](modules.html) and [units](units.html) classes:
-
- - `.page-module-*`
- - `.page-module-child-*`
- - `.page-unit-module-*`
- - `.page-unit-module-child-*`
+ - `.page`
+ - `.page-child`
+ - `.page-unit`
+ - `.page-unit-child`
+ - `.page-unit-module`
+ - `.page-unit-module-child`
+ - `.page-module`
+ - `.page-module-child`
 
 ## How do I structure their files & folders?
 
