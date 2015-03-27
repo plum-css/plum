@@ -33,33 +33,34 @@ graph LR;
     class MODULES active;
 {% endmermaid %}
 
-## How do I develop them?
+## How do they work?
 
-Your modules should consist of and be broken down into the following sections:
+A module should consist of and be broken down into the following sections:
 
-1. [Base](modules-base.html)
-2. [Modifier](modules-modifier.html)
-3. [State](modules-state.html)
-4. [Theme](modules-theme.html)
-5. [Layout](modules-layout.html)
+type                              | description                                                  | base class     | child class
+----------------------------------|--------------------------------------------------------------|----------------|---------------------
+[base](modules-base.html)         | classes that define the default interface.                   | `.module`      | `.module-child`
+[modifier](modules-modifier.html) | classes that define changes relative to placement.           | `.module-m-*`  | `.module-child-m-*`
+[state](modules-state.html)       | classes that define a specific condition at a specific time. | `.module-s-*`  | `.module-child-s-*`
+[theme](modules-theme.html)       | classes that define the look and feel.                       | `.module-t-*`  | `.module-child-t-*`
+[layout](modules-layout.html)     | classes that define the positioning and layout.              | `.module-l-*`  | `.module-child-l-*`
+
 
 ## How do I structure their files & folders?
 
 ```text
 modules
-├── module-one
-│   ├── _base.scss
-│   ├── _layout.scss
-│   ├── _modifier.scss
-│   ├── _state.scss
-│   └── _theme.scss
-└── module-two
+└── module
     ├── _base.scss
     ├── _layout.scss
     ├── _modifier.scss
     ├── _state.scss
     └── _theme.scss
 ```
+
+## Notes
+
+- A modules base class name should always be in **singular** form. e.g. ``.button`` never ``.buttons``.
 
 ## Generator
 
