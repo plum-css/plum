@@ -35,12 +35,12 @@ graph LR;
 
 ## How do they work?
 
-A module should consist of and be broken down into the following classes:
+A module should consist of and be broken down into the following sections:
 
-Type                              | Description                                                  | Base class     | Child class
+type                              | description                                                  | base class     | child class
 ----------------------------------|--------------------------------------------------------------|----------------|---------------------
 [base](modules-base.html)         | classes that define the default interface.                   | `.module`      | `.module-child`
-[modifier](modules-modifier.html) | classes that defined changes relative to placement.          | `.module-m-*`  | `.module-child-m-*`
+[modifier](modules-modifier.html) | classes that define changes relative to placement.           | `.module-m-*`  | `.module-child-m-*`
 [state](modules-state.html)       | classes that define a specific condition at a specific time. | `.module-s-*`  | `.module-child-s-*`
 [theme](modules-theme.html)       | classes that define the look and feel.                       | `.module-t-*`  | `.module-child-t-*`
 [layout](modules-layout.html)     | classes that define the positioning and layout.              | `.module-l-*`  | `.module-child-l-*`
@@ -60,8 +60,7 @@ modules
 
 ## Notes
 
-- A modules base class name should always be in **singular form**. e.g. ``.button`` never ``.buttons``.
-
+- A modules base class name should always be in **singular** form. e.g. ``.button`` never ``.buttons``.
 
 ## Generator
 
