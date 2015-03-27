@@ -4,7 +4,7 @@ title: Layouts
 navigation: true
 ---
 
-Layouts provide a top-level structure and/or grid for your applications modules and units.
+Layouts provide a top-level structure and/or grid for your applications [modules](modules.html) and [units](units.html).
 
 {% mermaid %}
 graph LR;
