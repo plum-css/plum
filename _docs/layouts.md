@@ -4,7 +4,7 @@ title: Layouts
 navigation: true
 ---
 
-Layouts provide a top-level structure for your site and are defined on a global and/or by-page basis.
+Layouts provide a top-level structure and/or grid for your applications modules and units.
 
 {% mermaid %}
 graph LR;
@@ -35,11 +35,11 @@ graph LR;
 
 ## How do they work?
 
-Layout classes can contain any properties that affect the positioning and structure of an element.
+Layout classes should only contain properties that affect the positioning and structure of an element and its [direct children](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors).
 
 ## How do I use them?
 
-Layouts are applied by adding a root class to an element: `.l-*` and modified by appending modifier classes:  `.l-*-m-*`.
+Layout classes are applied by appending `.l-*` to an element and `.l-*-*` to one of its [direct children](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors).
 
 ## How do I structure their files & folders?
 
@@ -48,41 +48,9 @@ layouts
 └── _global.scss
 ```
 
-## Example
+## Notes
 
-```scss
-.l-global {
-  width: 100%;
-}
-
-.l-global-1 {
-  display: block;
-  width: 100;
-}
-
-.l-global-2 {
-  float: left;
-  width: 80%;
-}
-
-.l-global-3 {
-  float: right;
-  width: 20%;
-}
-
-.l-global-4 {
-  display: block;
-  width: 100%;
-}
-
-.l-global-m-flipped .l-global-2 {
-  float: right;
-}
-
-.l-global-m-flipped .l-global-3 {
-  float: left;
-}
-```
+- Layout classes should only affect the position of base layout class and its [direct children](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors), **never** the content inside of them.
 
 ## Generator
 
