@@ -26,4 +26,4 @@ Theme classes can contain any properties needed to change the look and feel of a
 
 ## How do I use them?
 
-Theme classes are applied by appending `.module-t-*` and/or `.module-child-t-*` to a modules base classes.
+Theme classes are applied by appending `.module-t-*` and/or `.module-child-t-*` to one of a modules base classes.

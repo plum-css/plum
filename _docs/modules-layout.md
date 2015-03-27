@@ -26,7 +26,7 @@ Layout classes should only contain properties that affect the positioning and st
 
 ## How do I use them?
 
-Layout classes are applied by appending `.module-l-*` and/or `.module-child-l-*` to a modules base classes.
+Layout classes are applied by appending `.module-l-*` and/or `.module-child-l-*` to one of a modules base classes.
 
 ## Notes
 

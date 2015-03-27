@@ -26,7 +26,7 @@ State classes can contain any properties required to affect the state of a modul
 
 ## How do I use them?
 
-State classes are applied by appending `.module-s-*` and/or `.module-child-s-*` to a modules base classes.
+State classes are applied by appending `.module-s-*` and/or `.module-child-s-*` to one of a modules base classes.
 
 ## Notes
 
