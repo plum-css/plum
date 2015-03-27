@@ -4,7 +4,7 @@ title: Vendors
 navigation: true
 ---
 
-Vendor files are external dependencies where you don't explicitly control the creationg of markup or css classes.
+Vendor files are external dependencies where you don't explicitly control the creation of markup or css classes.
 
 {% mermaid %}
 graph LR;
