@@ -58,6 +58,11 @@ modules
     └── _theme.scss
 ```
 
+## Notes
+
+- A modules base class name should always be in **singular form**. e.g. ``.button`` never ``.buttons``.
+
+
 ## Generator
 
 You can automatically create and `@import` module files with the [Plum Generator](https://github.com/plum-css/generator-plum) by running the following command:
