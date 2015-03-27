@@ -26,4 +26,4 @@ Modifier classes should only contain properties that affect the placement of the
 
 ## How do I use them?
 
-wodifier classes are applied by appending `.module-m-*` and/or `.module-child-m-*` to a modules base classes.
+Modifier classes are applied by appending `.module-m-*` and/or `.module-child-m-*` to a modules base classes.
