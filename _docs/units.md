@@ -39,7 +39,7 @@ A units classes can directly affect **all** the properties of an element.
 
 ## How do I use them?
 
-Units are built by creating classes under the units namespace and by extending and subclassing an existing modules classes:
+Units are built by creating classes under the units namespace and by extending and subclassing [module](modules.html) classes:
 
 - `.unit`
 - `.unit-child`
