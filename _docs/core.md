@@ -4,7 +4,7 @@ title: Core
 navigation: true
 ---
 
-The core should contain only [universal](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) and [type](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) selectors and resets that will be shared across your entire application.
+Core files contain styles and resets that will be shared across your entire application.
 
 {% mermaid %}
 graph LR;
@@ -33,19 +33,15 @@ graph LR;
     class CORE active;
 {% endmermaid %}
 
-## How do I develop them?
+## How do they work?
 
-Your core should consist of and be broken down into the following sections:
-
-1. [Base](core-base.html)
-2. [Reset](core-reset.html)
+Core styles are created with [universal](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors) and [type](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) selectors and can directly affect any properties of an element.
 
 ## How do I structure the files & folders?
 
 ```text
 core
-├── _base.scss
-└── _reset.scss
+└── _base.scss
 ```
 
 ## Generator

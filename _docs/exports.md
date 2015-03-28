@@ -58,7 +58,6 @@ exports
 @import "../helpers/mixins/mixin";
 
 // 4. <-core->
-@import "../core/reset";
 @import "../core/base";
 
 // 5. <-vendors->
