@@ -4,7 +4,7 @@ title: Exports
 navigation: true
 ---
 
-Exports are where you combine (`@import`) all the pieces that will make up the publicly exposed parts of your application.
+Exports are where you combine all the pieces that will make up the publicly exposed parts of your application.
 
 {% mermaid %}
 graph LR;
@@ -75,9 +75,9 @@ exports
 @import "../modules/heading/theme";
 
 // 8. <-units->
-@import "../units/header";
-@import "../units/navigation";
-@import "../units/footer";
+@import "../units/header/header";
+@import "../units/header/navigation";
+@import "../units/header/footer";
 
 // 9. <-pages->
 @import "../pages/some-page";
@@ -87,7 +87,9 @@ exports
 @import "../hotfixes/fix";
 ```
 
-**Note:** *These files will be publicly available as `.css` stylesheets.*
+## Note
+
+- Export files will compile to publicly available `.css` stylesheets.
 
 ## Generator
 
