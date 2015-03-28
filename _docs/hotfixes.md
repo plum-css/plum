@@ -33,6 +33,10 @@ graph LR;
     class HOTFIXES active;
 {% endmermaid %}
 
+## How do they work?
+
+Hotfixes can target any valid selector and affect any properties required to fix the bug.
+
 ## How do I structure their files & folders?
 
 ```text
@@ -40,20 +44,9 @@ hotfixes
 └── _fix-for-navigation.scss
 ```
 
-## Example
+## Notes
 
-```scss
-// # Aside Navigation Specificity Fix
-//
-// It looks like a developer inadvertently targeted the "a" element instead of adding the style properties to the .list-item-link class.
-// This is causing the link to be white and disappear into the background-color of the list.
-// Users were complaining the navigation was unusable so this fix was added until we can properly refactor the .list-aside module.
-.list-aside > .list-item > .list-item-link {
-  color: red !important;
-}
-```
-
-**Note:** *Anything added to hotfixes must be documented thoroughly and converted into a more reusable solution as soon as possible.*
+- Anything added to hotfixes must be documented thoroughly and converted into a more reusable solution as soon as possible.
 
 ## Generator
 
