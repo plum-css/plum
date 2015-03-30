@@ -45,7 +45,7 @@ Layout classes are applied by appending `.l-*` to an element and `.l-*-*` to one
 
 ```text
 layouts
-└── _global.scss
+└── grid/_grid.scss
 ```
 
 ## Notes

@@ -64,7 +64,7 @@ exports
 @import "../vendors/plugin";
 
 // 6. <-layouts->
-@import "../layouts/global";
+@import "../layouts/grid/grid";
 
 // 7. <-modules->
 @import "../modules/heading/base";
