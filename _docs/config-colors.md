@@ -34,8 +34,6 @@ $color-bd-2: $_color-base-3; // border color
 $color-hl-2: $_color-base-1; // highlight color
 ```
 
-**Note:** *Variables should represent a cohesive color palette that makes up a section or theme in your application.*
-
 ## Generator
 
 You can automatically create and `@import` config files with the [Plum Generator](https://github.com/plum-css/generator-plum) by running the following command:

@@ -4,7 +4,7 @@ title: Configs
 navigation: true
 ---
 
-All of your application's configuration variables.
+Configs are all of your applications configuration varialbes.
 
 {% mermaid %}
 graph LR;
@@ -33,15 +33,17 @@ graph LR;
     class CONFIG active;
 {% endmermaid %}
 
-## How do I develop them?
+## How do they work?
 
 Your configs should consist of and be broken down into the following sections:
 
-1. [Colors](config-colors.html)
-2. [Icons](config-icons.html)
-3. [Images](config-images.html)
-4. [Layouts](config-layouts.html)
-5. [Typography](config-typography.html)
+type                                 | description
+-------------------------------------|-------------------------------------------------
+[colors](config-colors.html)         | configuration variables specific to color values.
+[icons](config-icons.html)           | configuration variables specific to icons.
+[images](config-images.html)         | configuration variables specific to images.
+[layouts](config-layouts.html)       | configuration variables specific to layouts and grids.
+[typography](config-typography.html) | configuration variables specific to typography.
 
 ## How do I structure their files and folders?
 
@@ -61,7 +63,9 @@ configs
     └── _typography.scss
 ```
 
-**Note:** *You can have multiple configs if you need to quickly change the overall "look and feel" of your application.*
+## Note
+
+- You can have multiple configs if you need to quickly change the overall "look and feel" of your application.
 
 ## Generator
 
