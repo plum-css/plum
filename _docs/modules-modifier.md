@@ -22,7 +22,7 @@ graph TD;
 
 ## How do they work?
 
-Modifier classes should only contain properties that affect the placement of the inner content of a module.
+Modifiers are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and should only contain properties that affect the placement of the inner content of a module.
 
 ## How do I use them?
 

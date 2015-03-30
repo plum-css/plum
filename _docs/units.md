@@ -35,7 +35,7 @@ graph LR;
 
 ## How do they work?
 
-A units classes can directly affect **all** the properties of an element.
+Units are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and can directly affect **all** the properties of an element.
 
 ## How do I use them?
 

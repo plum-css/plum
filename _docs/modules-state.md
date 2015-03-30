@@ -22,7 +22,7 @@ graph TD;
 
 ## How do they work?
 
-State classes can contain any properties required to affect the state of a module.
+States are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and can contain any properties required to affect the state of a module.
 
 ## How do I use them?
 

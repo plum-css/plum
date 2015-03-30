@@ -22,7 +22,7 @@ graph TD;
 
 ## How do they work?
 
-Theme classes can contain any properties needed to change the look and feel of a module.
+Themes are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and can contain any properties needed to change the look and feel of a module.
 
 ## How do I use them?
 

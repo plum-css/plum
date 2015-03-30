@@ -22,7 +22,7 @@ graph TD;
 
 ## How do they work?
 
-Base classes should contain properties that will be shared across your module.
+Bases are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and can contain any properties that will be shared across your module.
 
 ## Notes
 

@@ -22,7 +22,7 @@ graph TD;
 
 ## How do they work?
 
-Layout classes should only contain properties that affect the positioning and structure of a module.
+Layouts are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and should only contain properties that affect the positioning and structure of a module.
 
 ## How do I use them?
 
