@@ -4,7 +4,7 @@ title: Documentation
 navigation: false
 ---
 
-Documentation and example templates will be used to create a [living styleguide](https://github.com/kss-node/kss/blob/spec/SPEC.md#style-guide) to help develop and test your application.
+Documentation and example templates are used to create a [living styleguide](https://github.com/kss-node/kss/blob/spec/SPEC.md#style-guide) to help develop and test your application.
 
 ## How does it work?
 
