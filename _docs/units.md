@@ -46,13 +46,28 @@ Units are built by creating classes under the units namespace and by extending a
 - `.unit-module`
 - `.unit-module-child`
 
+## How do I document them?
+
+Units should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
+
+```scss
+// Name
+// Description of unit.
+// Markup: templates/example.hbs
+// Styleguide units.name
+.unit { }
+```
 
 ## How do I structure their files & folders?
 
 ```text
 units
-└── unit/_unit.scss
+└── unit
+    ├── _unit.scss
+    └── templates
+        └── example.hbs
 ```
+
 
 ## Generator
 

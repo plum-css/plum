@@ -33,6 +33,17 @@ graph LR;
     class HELPERS active;
 {% endmermaid %}
 
+## How do I document them?
+
+Helpers should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
+
+```scss
+// Name
+// Description of helper.
+// Styleguide helpers.functions.name
+@function name() { }
+```
+
 ## How do I structure their files & folders?
 
 ```text

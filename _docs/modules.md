@@ -45,6 +45,20 @@ type                              | description                                 
 [theme](modules-theme.html)       | classes that define the look and feel.                       | `.module-t-*`  | `.module-child-t-*`
 [layout](modules-layout.html)     | classes that define the positioning and layout.              | `.module-l-*`  | `.module-child-l-*`
 
+## How do I document them?
+
+Module classes should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [modifier](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-modifiers), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup).
+
+```scss
+// Name
+// Description of module.
+//
+// .module-* - module modifier class
+//
+// Markup: templates/example.hbs
+// Styleguide modules.name
+.module { }
+```
 
 ## How do I structure their files & folders?
 
@@ -55,7 +69,9 @@ modules
     ├── _layout.scss
     ├── _modifier.scss
     ├── _state.scss
-    └── _theme.scss
+    ├── _theme.scss
+    └── templates
+        └── example.hbs
 ```
 
 ## Notes

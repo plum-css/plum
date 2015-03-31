@@ -41,16 +41,31 @@ Layout classes should only contain properties that affect the positioning and st
 
 Layout classes are applied by appending `.l-*` to an element and `.l-*-*` to one of its [direct children](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors).
 
+## How do I document them?
+
+Layouts should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
+
+```scss
+// Name
+// Description of layout class.
+// Markup: templates/example.hbs
+// Styleguide layouts.name
+.l-name { }
+```
+
 ## How do I structure their files & folders?
 
 ```text
 layouts
-└── grid/_grid.scss
+└── layout
+    ├── _layout.scss
+    └── templates
+        └── example.hbs
 ```
 
 ## Notes
 
-- Layout classes should only affect the position of base layout class and its [direct children](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors), **never** the content inside of them.
+- Layout classes should only affect the position of the base layout class and its [direct children](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors), **never** the content inside of them.
 
 ## Generator
 
