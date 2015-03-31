@@ -13,7 +13,7 @@ and by creating an example markup template that shows how your classes should be
 
 ## How do I structure their files & folders?
 
-Example files should be placed inside a `/templates` directory located at the root of each specific [helper](helpers.html#how-do-i-document-them?), [layout](layouts.html#how-do-i-document-them?), [module](modules.html#how-do-i-document-them?), and [unit](units.html#how-do-i-document-them?) folder.
+Example files should be placed inside a `/templates` directory located at the root of each specific [layout](layouts.html#how-do-i-document-them?), [module](modules.html#how-do-i-document-them?), and [unit](units.html#how-do-i-document-them?) folder.
 
 ```text
 units

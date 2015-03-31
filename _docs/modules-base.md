@@ -26,4 +26,5 @@ Bases are created using **only** [class selectors](https://developer.mozilla.org
 
 ## Notes
 
+- A modules base class name should always be in **singular** form. e.g. ``.button`` never ``.buttons``.
 - To provide a consistent interface, base classes should always be declared even if they don't have any properties set on them.
