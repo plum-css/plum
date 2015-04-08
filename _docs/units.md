@@ -53,7 +53,7 @@ Units should be [documented](documentation.html) with a [name](https://github.co
 ```scss
 // Name
 // Description of unit.
-// Markup: templates/example.hbs
+// Markup: templates/name.hbs
 // Styleguide units.name
 .unit { }
 ```
@@ -65,9 +65,15 @@ units
 └── unit
     ├── _unit.scss
     └── templates
-        └── example.hbs
+        └── unit.hbs
 ```
 
+## Example
+
+An example of a fully documented unit.
+
+<p data-height="500" data-theme-id="12653" data-slug-hash="zxQQda" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/zxQQda/'>Footer Unit example (Step 2)</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Generator
 
