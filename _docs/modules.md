@@ -35,30 +35,26 @@ graph LR;
 
 ## How do they work?
 
-A module should consist of and be broken down into the following sections:
+Modules are built by creating [classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) under a namespace and should be broken down in to the following sections:
 
-type                              | description                                                  | base class     | child class
-----------------------------------|--------------------------------------------------------------|----------------|---------------------
-[base](modules-base.html)         | classes that define the default interface.                   | `.module`      | `.module-child`
-[modifier](modules-modifier.html) | classes that define changes relative to placement.           | `.module-m-*`  | `.module-child-m-*`
-[state](modules-state.html)       | classes that define a specific condition at a specific time. | `.module-s-*`  | `.module-child-s-*`
-[theme](modules-theme.html)       | classes that define the look and feel.                       | `.module-t-*`  | `.module-child-t-*`
-[layout](modules-layout.html)     | classes that define the positioning and layout.              | `.module-l-*`  | `.module-child-l-*`
+type                              | description                                                          | namespace      |
+----------------------------------|----------------------------------------------------------------------|----------------|
+[base](modules-base.html)         | define the default classes and interface for a module.               | `.module`      |
+[modifier](modules-modifier.html) | define how a modules will adapt relative to its placement.           | `.module-m-*`  |
+[state](modules-state.html)       | define a condition at a specific time in a module and its children.  | `.module-s-*`  |
+[theme](modules-theme.html)       | define the look and feel of a module and its children.               | `.module-t-*`  |
+[layout](modules-layout.html)     | define the positioning and layout of a module and its children.      | `.module-l-*`  |
+
+<p data-height="500" data-theme-id="12653" data-slug-hash="MYXBZM" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+### Notes
+
+- A modules namespace should always be in **singular** form. e.g. ``.button`` never ``.buttons``.
 
 ## How do I document them?
 
 Module classes should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [modifier](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-modifiers), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup).
-
-```scss
-// Name
-// Description of module classes.
-//
-// .module-* - module modifier class
-//
-// Markup: templates/name.hbs
-// Styleguide modules.type.name
-.module { }
-```
 
 ## How do I structure their files & folders?
 
@@ -73,14 +69,6 @@ modules
     └── templates
         └── module.hbs
 ```
-
-## Example
-
-An example of a fully documented module.
-
-<p data-height="500" data-theme-id="12653" data-slug-hash="MYXBZM" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
 
 ## Generator
 

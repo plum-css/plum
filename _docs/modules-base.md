@@ -23,8 +23,3 @@ graph TD;
 ## How do they work?
 
 Bases are created using **only** [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and can contain any properties that will be shared across your module.
-
-## Notes
-
-- A modules base class name should always be in **singular** form. e.g. ``.button`` never ``.buttons``.
-- To provide a consistent interface, base classes should always be declared even if they don't have any properties set on them.
