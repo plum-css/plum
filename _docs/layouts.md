@@ -59,7 +59,7 @@ layouts
 └── layout
     ├── _layout.scss
     └── templates
-        └── example.hbs
+        └── layout.hbs
 ```
 
 ## Generator
