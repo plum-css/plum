@@ -8,7 +8,7 @@ Documentation and example templates are used to create a [living styleguide](htt
 
 ## How does it work?
 
-Documentation is created by prepending a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [modifier](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-modifiers), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and a [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup) before your classes
+Documentation is created by prepending a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and a [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup) before your classes
 and by creating an example markup template that shows how your classes should be used.
 
 ## How do I structure their files & folders?
