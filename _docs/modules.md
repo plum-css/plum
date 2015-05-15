@@ -66,8 +66,12 @@ modules
     ├── _modifier.scss
     ├── _state.scss
     ├── _theme.scss
-    └── templates
-        └── module.hbs
+    └── tests
+        ├── baselines
+        │   └── module.png
+        ├── fixtures
+        │   └── module.hbs
+        └── module.js
 ```
 
 ## Generator

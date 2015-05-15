@@ -55,8 +55,12 @@ Units should be [documented](documentation.html) with a [name](https://github.co
 units
 └── unit
     ├── _unit.scss
-    └── templates
-        └── unit.hbs
+    └── tests
+        ├── baselines
+        │   └── unit.png
+        ├── fixtures
+        │   └── unit.hbs
+        └── unit.js
 ```
 
 ## Generator

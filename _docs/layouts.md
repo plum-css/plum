@@ -58,8 +58,12 @@ Layouts should be [documented](documentation.html) with a [name](https://github.
 layouts
 └── layout
     ├── _layout.scss
-    └── templates
-        └── layout.hbs
+    └── tests
+        ├── baselines
+        │   └── layout.png
+        ├── fixtures
+        │   └── layout.hbs
+        └── layout.js
 ```
 
 ## Generator
