@@ -53,7 +53,7 @@
     display: block;
     padding: 5px 10px;
   }
-  &:last-child {
+  &:nth-last-child(2) {
     &:before {
       content: "|";
       color: lighten($color-bd-1, 80%);
