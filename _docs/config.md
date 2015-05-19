@@ -37,13 +37,11 @@ graph LR;
 
 Your configs should consist of and be broken down into the following sections:
 
-type                                 | description
--------------------------------------|-------------------------------------------------
-[colors](config-colors.html)         | configuration variables specific to color values.
-[icons](config-icons.html)           | configuration variables specific to icons.
-[images](config-images.html)         | configuration variables specific to images.
-[layouts](config-layouts.html)       | configuration variables specific to layouts and grids.
-[typography](config-typography.html) | configuration variables specific to typography.
+- `$color`      - configuration variables specific to color values. [[?]](config-colors.html)
+- `$icon`       - configuration variables specific to icons. [[?]](config-icons.html)
+- `$image`      - configuration variables specific to images. [[?]](config-images.html)
+- `$layout`     - configuration variables specific to layouts and grids. [[?]](config-layouts.html)
+- `$typography` - configuration variables specific to typography. [[?]](config-typography.html)
 
 ## How do I structure their files and folders?
 

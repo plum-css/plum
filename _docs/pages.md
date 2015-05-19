@@ -39,22 +39,29 @@ Pages are created using **only** [class selectors](https://developer.mozilla.org
 
 ## How do I use them?
 
-Pages are built by creating classes under the pages namespace and by extending and subclassing [module](modules.html) and/or [unit](units.html) classes:
+Pages are built by creating classes under a chosen namespace and by extending and subclassing [module](modules.html) and/or [unit](units.html) classes:
 
- - `.page`
- - `.page-child`
- - `.page-unit`
- - `.page-unit-child`
- - `.page-unit-module`
- - `.page-unit-module-child`
- - `.page-module`
- - `.page-module-child`
+ - `.page`        - define the default classes for a page.
+ - `.page-child`  - define the child classes for a page.
+ - `.page-unit`   - extend and subclass an existing [unit](units.html) for use in a page.
+ - `.page-module` - extend and subclass an existing [module](modules.html) for use in a page.
+
+## How do I document them?
+
+Pages should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [fixture reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
 
 ## How do I structure their files & folders?
 
 ```text
 pages
-└── _page-name.scss
+└── page
+    ├── _page.scss
+    └── tests
+        ├── baselines
+        │   └── page.png
+        ├── fixtures
+        │   └── page.hbs
+        └── page.js
 ```
 
 ## Generator
