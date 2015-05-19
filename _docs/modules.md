@@ -35,15 +35,13 @@ graph LR;
 
 ## How do they work?
 
-Modules are built by creating [classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) under a namespace and should be broken down in to the following sections:
+Modules are built by creating [classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) under a chosen namespace and should be broken down in to the following sections:
 
-type                              | description                                                          | namespace      |
-----------------------------------|----------------------------------------------------------------------|----------------|
-[base](modules-base.html)         | define the default classes and interface for a module.               | `.module`      |
-[modifier](modules-modifier.html) | define how a modules will adapt relative to its placement.           | `.module-m-*`  |
-[state](modules-state.html)       | define a condition at a specific time in a module and its children.  | `.module-s-*`  |
-[theme](modules-theme.html)       | define the look and feel of a module and its children.               | `.module-t-*`  |
-[layout](modules-layout.html)     | define the positioning and layout of a module and its children.      | `.module-l-*`  |
+- `.module`     - define the default classes and interface for a module. [[?]](modules-base.html)
+- `.module-m-*` - define how a module will adapt relative to its placement. [[?]](modules-modifier.html)
+- `.module-s-*` - define a condition at a specific time in a module. [[?]](modules-state.html)
+- `.module-t-*` - define the look and feel of a module. [[?]](modules-theme.html)
+- `.module-l-*` - define the positioning and layout of a module children. [[?]](modules-layout.html)
 
 <p data-height="500" data-theme-id="12653" data-slug-hash="MYXBZM" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
@@ -54,7 +52,7 @@ type                              | description                                 
 
 ## How do I document them?
 
-Module classes should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup).
+Module classes should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and [fixture reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup).
 
 ## How do I structure their files & folders?
 

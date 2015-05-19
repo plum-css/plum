@@ -79,8 +79,8 @@ exports
 @import "../units/header/footer";
 
 // 9. <-pages->
-@import "../pages/some-page";
-@import "../pages/some-other-page";
+@import "../pages/some-page/some-page";
+@import "../pages/some-other-page/some-other-page";
 
 // 10. <-hotfixes->
 @import "../hotfixes/fix";

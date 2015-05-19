@@ -35,19 +35,18 @@ graph LR;
 
 ## How do they work?
 
-Units can directly affect **all** the properties of an element and are built by creating [classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) under a namespace and by extending and subclassing existing [modules](modules.html).
+Units can directly affect **all** the properties of an element and are built by creating [classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) under a chosen namespace and by extending and subclassing existing [modules](modules.html).
 
-- `.unit`
-- `.unit-child`
-- `.unit-module`
-- `.unit-module-child`
+- `.unit`        - chosen define the default classes and interface for a unit.
+- `.unit-child`  - define the child classes of a unit.
+- `.unit-module` - extend and subclass an existing [module](modules.html) for use in a unit.
 
 <p data-height="500" data-theme-id="12653" data-slug-hash="zxQQda" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/zxQQda/'>Footer Unit example (Step 2)</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## How do I document them?
 
-Units should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [template reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
+Units should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [fixture reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
 
 ## How do I structure their files & folders?
 
