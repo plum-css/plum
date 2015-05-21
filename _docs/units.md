@@ -48,6 +48,10 @@ Units can directly affect **all** the properties of an element and are built by 
 
 Units should be [documented](documentation.html) with a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [fixture reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup), and [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference).
 
+## How do I test them?
+
+Visual regression tests for units can be created, setup, and run by following the [documentation located here](testing.html).
+
 ## How do I structure their files & folders?
 
 ```text
