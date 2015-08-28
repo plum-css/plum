@@ -4,7 +4,7 @@ title: Configs
 navigation: true
 ---
 
-Configs are all of your applications configuration varialbes.
+Configs are all of your applications configuration variables.
 
 {% mermaid %}
 graph LR;
