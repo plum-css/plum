@@ -33,6 +33,9 @@ graph LR;
     class MODULES active;
 {% endmermaid %}
 
+<p data-height="500" data-theme-id="12653" data-slug-hash="MYXBZM" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 ## How do they work?
 
 Modules are built by creating [classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) under a chosen namespace and should be broken down in to the following sections:
@@ -43,8 +46,6 @@ Modules are built by creating [classes](https://developer.mozilla.org/en-US/docs
 - `.module-t-*` - define the look and feel of a module. [[?]](modules-theme.html)
 - `.module-l-*` - define the positioning and layout of a module children. [[?]](modules-layout.html)
 
-<p data-height="500" data-theme-id="12653" data-slug-hash="MYXBZM" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### Notes
 
