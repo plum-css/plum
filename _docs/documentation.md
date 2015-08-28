@@ -6,6 +6,9 @@ navigation: false
 
 Documentation and [fixtures](http://en.wikipedia.org/wiki/Test_fixture#Software) are used to create a [living styleguide](https://github.com/kss-node/kss/blob/spec/SPEC.md#style-guide) to help develop and test your application.
 
+<p data-height="500" data-theme-id="12653" data-slug-hash="MYXBZM" data-default-tab="css" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 ## How does it work?
 
 Documentation is created by prepending a [name](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [description](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description), [category](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference), and a [fixture reference](https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup) before your classes

@@ -50,3 +50,9 @@ graph TD;
     PAGES-->HOTFIXES;
     HOTFIXES-->EXPORTS;
 {% endmermaid %}
+
+## Tools
+
+- [generator-plum](https://github.com/plum-css/generator-plum) - [Yeoman](http://yeoman.io) generator for [plum](http://plum-css.github.io/plum/).
+- [plum-test](https://github.com/plum-css/plum-test) - Build and run visual regression tests against plum stylesheets.
+- [grunt-plum-test](https://github.com/plum-css/grunt-plum) - [Grunt](http://gruntjs.com) plugin wrapper for [plum-test](https://github.com/plum-css/plum-test).

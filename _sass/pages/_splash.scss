@@ -2,8 +2,6 @@
 .splash-heading-link {}
 
 .splash-markdown .mermaid {
-  text-align: center;
-
   &:nth-of-type(even) {
     display: none;
     @include media-query( $layout-small ) {
