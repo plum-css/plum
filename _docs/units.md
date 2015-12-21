@@ -57,7 +57,7 @@ Visual regression tests for units can be created, setup, and run by following th
 ```text
 units
 └── unit
-    ├── _unit.scss
+    ├── _index.scss
     └── tests
         ├── baselines
         │   └── unit.png

@@ -61,7 +61,7 @@ Visual regression tests for layouts can be created, setup, and run by following 
 ```text
 layouts
 └── layout
-    ├── _layout.scss
+    ├── _index.scss
     └── tests
         ├── baselines
         │   └── layout.png

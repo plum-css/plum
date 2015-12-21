@@ -59,7 +59,7 @@ Visual regression tests for pages can be created, setup, and run by following th
 ```text
 pages
 └── page
-    ├── _page.scss
+    ├── _index.scss
     └── tests
         ├── baselines
         │   └── page.png

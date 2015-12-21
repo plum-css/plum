@@ -4,7 +4,8 @@ title: Exports
 navigation: true
 ---
 
-Exports are where you combine all the pieces that will make up the publicly exposed parts of your application.
+Exports serve as the entry point to your stylesheet, combining all of the pieces that make up the publicly exposed parts of your application.
+
 
 {% mermaid %}
 graph LR;
@@ -45,11 +46,8 @@ exports
 
 ```scss
 // 1. <-configs->
-@import "../configs/default/colors";
-@import "../configs/default/icons";
-@import "../configs/default/images";
-@import "../configs/default/layouts";
-@import "../configs/default/typography";
+@import "../configs/default/index";
+@import "../configs/secondary/index";
 
 // 2. <-functions->
 @import "../helpers/functions/function";
@@ -64,23 +62,20 @@ exports
 @import "../vendors/plugin";
 
 // 6. <-layouts->
-@import "../layouts/grid/grid";
+@import "../layouts/grid/index";
 
 // 7. <-modules->
-@import "../modules/heading/base";
-@import "../modules/heading/layout";
-@import "../modules/heading/modifier";
-@import "../modules/heading/state";
-@import "../modules/heading/theme";
+@import "../modules/button/index";
+@import "../modules/heading/index";
+@import "../modules/link/index";
 
 // 8. <-units->
-@import "../units/header/header";
-@import "../units/header/navigation";
-@import "../units/header/footer";
+@import "../units/header/index";
+@import "../units/hero/index";
 
 // 9. <-pages->
-@import "../pages/some-page/some-page";
-@import "../pages/some-other-page/some-other-page";
+@import "../pages/some-page/index";
+@import "../pages/some-other-page/index";
 
 // 10. <-hotfixes->
 @import "../hotfixes/fix";
