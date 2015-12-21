@@ -35,7 +35,7 @@ Tests, baselines, and [fixtures](http://en.wikipedia.org/wiki/Test_fixture#Softw
 ```text
 units
 └── unit
-    ├── _unit.scss
+    ├── index.scss
     └── tests
         ├── baselines
         │   └── unit.png
