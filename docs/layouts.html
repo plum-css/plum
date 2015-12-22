@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Layouts</title>
+  <meta name="description" content="Layouts provide a top-level structure and/or grid for your applications modules and units.">
+
+  <link rel="canonical" href="http://yourdomain.com/plum/docs/layouts.html">
+  <link rel="alternate" type="application/atom+xml" title="Plum" href="http://yourdomain.com/plum/feed.xml" />
+  <link rel="stylesheet" href="/plum/css/exports/core.css">
+</head>
+
+
+  <body>
+
+    <div class="l-global">
+  <div class="l-global-1">
+    <header class="header">
+  <div class="header-l">
+    <div class="header-l-1">
+      <a class="header-heading" href="/plum/">Plum</a>
+    </div>
+    <div class="header-l-2">
+      <nav class="navigation">
+  <a href="#" class="navigation-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+  </a>
+  <ul class="navigation-list">
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="config.html">Configs</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="helpers.html">Helpers</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="core.html">Core</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="vendors.html">Vendors</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="modules.html">Modules</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="layouts.html">Layouts</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="units.html">Units</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="pages.html">Pages</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="hotfixes.html">Hotfixes</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="exports.html">Exports</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="documentation.html">Documentation</a>
+    </li>
+    <li class="navigation-list-item">
+      <a class="navigation-list-item-link" href="testing.html">Testing</a>
+    </li>
+  </ul>
+</nav>
+
+    </div>
+  </div>
+</header>
+
+  </div>
+  <div class="l-global-2">
+    <section class="content">
+      <header class="content-header">
+        <h1 class="heading heading-t-xxlarge">Layouts</h1>
+      </header>
+      <article class="content-body">
+        <div class="markdown">
+          <p>Layouts provide a top-level structure and/or grid for your applications <a href="modules.html">modules</a> and <a href="units.html">units</a>.</p>
+
+<script src="/plum/js/mermaid.full.js"></script><div class="mermaid">
+graph LR;
+    classDef default fill:#eaeaea,stroke:#666,stroke-width:2px;
+    classDef active fill:#fff,stroke:#666,stroke-width:2px;
+    CONFIG(Configs);
+    CORE(Core);
+    VENDORS(Vendors);
+    MODULES(Modules);
+    LAYOUTS(Layouts);
+    UNITS(Units);
+    PAGES(Pages);
+    HELPERS(Helpers);
+    HOTFIXES(Hotfixes);
+    EXPORTS(Exports);
+    CONFIG-->CORE;
+    HELPERS-->CORE;
+    CORE-->VENDORS;
+    VENDORS---LAYOUTS;
+    VENDORS---MODULES;
+    MODULES---UNITS;
+    LAYOUTS---UNITS;
+    UNITS-->PAGES;
+    PAGES-->HOTFIXES;
+    HOTFIXES-->EXPORTS;
+    class LAYOUTS active;
+</div>
+
+<p data-height="500" data-theme-id="12653" data-slug-hash="emwdpm" data-default-tab="html" data-user="jasonbellamy" class='codepen'>See the Pen <a href='http://codepen.io/jasonbellamy/pen/MYXBZM/'>Module Example</a> by Jason Bellamy (<a href='http://codepen.io/jasonbellamy'>@jasonbellamy</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="how-do-they-work">How do they work?</h2>
+
+<p>Layouts should only contain properties that affect the positioning and structure of an element and its <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors">direct children</a> and are built by creating parent/child/modifier <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">classes</a> under a chosen namespace.</p>
+
+<ul>
+<li><code>.l-layout</code>       - define the base class of a layout.</li>
+<li><code>.l-layout-child</code> - define the child classes of a layout.</li>
+<li><code>.l-layout-m-*</code>   - define the modifier classes of a layout.</li>
+</ul>
+
+<h3 id="notes">Notes</h3>
+
+<ul>
+<li>Layouts should only affect the position of the base layout class and its <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors">direct children</a>, <strong>never</strong> the content inside of them.</li>
+</ul>
+
+<h2 id="how-do-i-document-them">How do I document them?</h2>
+
+<p>Layouts should be <a href="documentation.html">documented</a> with a <a href="https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description">name</a>, <a href="https://github.com/kss-node/kss/blob/spec/SPEC.md#the-heading-and-description">description</a>, <a href="https://github.com/kss-node/kss/blob/spec/SPEC.md#the-markup">fixture reference</a>, and <a href="https://github.com/kss-node/kss/blob/spec/SPEC.md#the-styleguide-reference">category</a>.</p>
+
+<h2 id="how-do-i-test-them">How do I test them?</h2>
+
+<p>Visual regression tests for layouts can be created, setup, and run by following the <a href="testing.html">documentation located here</a>.</p>
+
+<h2 id="how-do-i-structure-their-files-amp-folders">How do I structure their files &amp; folders?</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">layouts
+└── layout
+    ├── _index.scss
+    └── tests
+        ├── baselines
+        │   └── layout.png
+        ├── fixtures
+        │   └── layout.hbs
+        └── layout.js
+</code></pre></div>
+<h2 id="generator">Generator</h2>
+
+<p>You can automatically create and <code>@import</code> a layout file with the <a href="https://github.com/plum-css/generator-plum">Plum Generator</a> by running the following command:</p>
+
+<ul>
+<li><code>yo plum:layout &lt;name&gt;</code></li>
+</ul>
+
+        </div>
+      </article>
+    </section>
+  </div>
+  <div class="l-global-3">
+    <footer class="footer">
+  <div class="footer-l">
+    <div class="footer-l-1">
+      <p class="footer-text"><small>Copyright (c) 2015 <a href="http://jasonbellamy.com">Jason Bellamy</a> Licensed under the MIT license.</small></p>
+    </div>
+  </div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27590471-3', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/plum/js/core.js"></script>
+
+  </div>
+</div>
+
+
+  </body>
+
+</html>
