@@ -54,15 +54,15 @@ configs
 │     └── _icons.scss
 │     └── _images.scss
 │     └── _layouts.scss
-│     └── _typography.scss
-├── config-two
-│   └── _index.scss
-|   ├── partials
-│     └── _colors.scss
-│     └── _icons.scss
-│     └── _images.scss
-│     └── _layouts.scss
-│     └── _typography.scss
+│     └── _typography.scss
+└── config-two
+    └── _index.scss
+    └── partials
+      └── _colors.scss
+      └── _icons.scss
+      └── _images.scss
+      └── _layouts.scss
+      └── _typography.scss
 ```
 
 ## Note

@@ -66,16 +66,16 @@ modules
 └── module
     ├── _index.scss
     └── partials
-      ├── _base.scss
-      ├── _layout.scss
-      ├── _modifier.scss
-      ├── _state.scss
-      ├── _theme.scss
+        ├── _base.scss
+        ├── _layout.scss
+        ├── _modifier.scss
+        ├── _state.scss
+        ├── _theme.scss
     └── tests
-        ├── baselines
-        │   └── module.png
-        ├── fixtures
-        │   └── module.hbs
+        └── baselines
+            └── module.png
+        └── fixtures
+            └── module.hbs
         └── module.js
 ```
 
