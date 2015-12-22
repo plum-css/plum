@@ -21,7 +21,7 @@ and by creating a [fixture](http://en.wikipedia.org/wiki/Test_fixture#Software) 
 ```text
 units
 └── unit
-    ├── _unit.scss
+    ├── _index.scss
     └── tests
         ├── baselines
         │   └── unit.png

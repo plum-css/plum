@@ -48,17 +48,21 @@ Your configs should consist of and be broken down into the following sections:
 ```text
 configs
 ├── config-one
-│   └── _colors.scss
-│   └── _icons.scss
-│   └── _images.scss
-│   └── _layouts.scss
-│   └── _typography.scss
+│   ├── partials
+│   │   ├── _colors.scss
+│   │   ├── _icons.scss
+│   │   ├── _images.scss
+│   │   ├── _layouts.scss
+│   │   └── _typography.scss
+│   └── _index.scss
 └── config-two
-    ├── _colors.scss
-    ├── _icons.scss
-    ├── _images.scss
-    ├── _layouts.scss
-    └── _typography.scss
+    ├── partials
+    │   ├── _colors.scss
+    │   ├── _icons.scss
+    │   ├── _images.scss
+    │   ├── _layouts.scss
+    │   └── _typography.scss
+    └── _index.scss
 ```
 
 ## Note
