@@ -64,19 +64,17 @@ Visual regression tests for modules can be created, setup, and run by following 
 ```text
 modules
 └── module
-    ├── _index.scss
-    └── partials
-        ├── _base.scss
-        ├── _layout.scss
-        ├── _modifier.scss
-        ├── _state.scss
-        ├── _theme.scss
-    └── tests
-        └── baselines
-            └── module.png
-        └── fixtures
-            └── module.hbs
-        └── module.js
+    ├── partials
+    │   ├── _base.scss
+    │   ├── _layout.scss
+    │   ├── _modifier.scss
+    │   ├── _state.scss
+    │   └── _theme.scss
+    ├── tests
+    │   ├── fixtures
+    │   │   └── module.hbs
+    │   └── module.js
+    └── _index.scss
 ```
 
 ## Generator
